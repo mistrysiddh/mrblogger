@@ -12,14 +12,14 @@ site:
   subtitle: Mistry Siddh
   author: Mistry Siddh
   nick: Mistry Siddh
-  description: Believe in the Person who Believes in you.
-  link: 'https://www.mistrysiddh.com/'
+  description: MAYBE I WAS BORN LOSER, BUT I WILL DIE A FUCKING LEGEND.
+  link: 'https://www.mistrysiddh.com'
   language: en
   multi_language: false
-  logo: https://www.mistrysiddh.com/images/whoami/avatar.png
-  avatar: https://www.mistrysiddh.com/images/whoami/avatar.png
+  logo: /images/whoami/avatar.png
+  avatar: /images/whoami/avatar.png
   siddh:
-    number: '6355040470'
+    number: ''
     link: 'https://www.mistrysiddh.com'
 
 #! ---------------------------------------------------------------
@@ -30,7 +30,7 @@ authors:
   ##! example
   siddh:
     name: Mistry Siddh
-    avatar: https://www.mistrysiddh.com/images/whoami/avatar.png
+    avatar: /images/whoami/avatar.png
     link: https://github.com/mrfoxie
     description: 'Believe in the Person who Believes in you.'
     socials:
@@ -44,9 +44,9 @@ menu:
   About: false
   Tags: true
   Archives: true
-  Simulation:
-    name: 'Simulation'
-    path: 'https://simulation.mistrysiddh.com/'
+#  Simulation:
+#    name: 'Simulation'
+#    path: 'https://simulation.mistrysiddh.com/'
   live-cyber-attacks:
     name: 'Cyber Attacks'
     i18n:
@@ -57,13 +57,13 @@ menu:
 #! @docs https://aurora.tridiamond.tech/guide/theme.html
 #! ---------------------------------------------------------------
 theme:
-  dark_mode: true
-  profile_shape: circle # support `circle`, `diamond`, `rounded`
+  dark_mode: false
+  profile_shape: diamond # support `circle`, `diamond`, `rounded`
   feature: true
   gradient:
-    color_1: '#5C0F0F'
-    color_2: '#A50000'
-    color_3: '#D50000'
+    color_1: '#CABFAB'
+    color_2: '#52575D'
+    color_3: '#41444B'
 
 #! ---------------------------------------------------------------
 #! Social Configs
@@ -93,7 +93,7 @@ socials:
 #! ---------------------------------------------------------------
 site_meta:
   cdn: en
-  favicon: https://www.mistrysiddh.com/images/whoami/avatar.png
+  favicon: /images/whoami/avatar.png
   description: 'Get Weakly News Related To Different Kinds Of News, Tips, Tricks, Etc. If You Have Your Own Theory Or Story Then Comment Down In The Post.'
   keywords: 'matrix, simulation, reality, government, truth, experiment, mind control, Conspiracy theory'
   author: 'Mistry Siddh'
@@ -105,7 +105,7 @@ site_meta:
 
 # For local development only!
 gitalk:
-  enable: true
+  enable: false
   autoExpand: true
   clientID: 'b2f95a99322423c264fc'
   clientSecret: 'fd88d62d1bc75cb91014e9b4d29b9db842818b6c'
@@ -115,7 +115,7 @@ gitalk:
   id: uid
   language: en
   distractionFreeMode: true
-  recentComment: true
+  recentComment: false
   proxy: ''
 
 # Valine comment plugin (recommended!)
@@ -137,18 +137,15 @@ valine:
 # Enable Busuanzi statistic plugin
 # see http://ibruce.info/2015/04/04/busuanzi/
 busuanzi:
-  enable: true
+  enable: false
 
 copy_protection:
   enable: true
   author:
-    cn: 作者
     en: Mistry Siddh
   link:
-    cn: 本文来自于
     en: Article is from
   license:
-    cn: 博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议
     en: This content is shared under the CC BY-NC-SA 4.0 protocol (Non-Commercial)
 
 #! ---------------------------------------------------------------
@@ -161,17 +158,18 @@ aurora_bot:
   bot_type: dia
   tips:
     messages:
-        -  Hi, I am <span>Dia O.O</span>, I am here to help you?
-        -  How are you doing? O.O
-        -  Believe in the person who believes in you O.O
-    visibility_change: "Welcome to Mr. Blogger O.O"
+        -  Hi, I am <span>Dia ^_^</span>, I am here to help you?
+        -  How are you doing? ^_^
+        -  Believe in the person who believes in you ^_^
+        -  Hope your doing good. ^_^
+    visibility_change: "Welcome to my Blog. ^_^"
     mouseover:
       - selector: '#Aurora-Dia'
         text:
-          - Waaaaaaaa...What are you <span>doing</span>? O.O
-          - Please be gentle, I am very delicate! O.O
-          - '<span>Sir yes sir!</span> What can I help you with? O.O'
-          - Share this site as much as possible. O.O
+          - Aaaaaaaaa... What are you <span>doing</span>? ^_^
+          - Please be gentle, I am very delicate! ^_^
+          - '<span>Sir yes sir!</span> What can I help you with? ^_^'
+          - Share this site as much as possible. ^_^
 
 
 #! ---------------------------------------------------------------
