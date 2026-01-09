@@ -39,14 +39,13 @@ This blog serves as my open notebook, covering a wide range of topics:
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mistrysiddh&theme=radical" alt="Profile Details" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mistrysiddh&theme=radical" alt="Top Languages" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mistrysiddh&theme=radical" alt="Productive Time" />
-</p>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mistrysiddh&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mistrysiddh&layout=compact&theme=radical" alt="Top Languages" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mistrysiddh&theme=radical" alt="GitHub Streak" />
+</div>
 
 ## 🛠️ Built With
 
