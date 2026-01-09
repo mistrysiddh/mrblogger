@@ -7,8 +7,9 @@
   **The Open Notebook of Siddh Mistry**
 
   [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmistrysiddh%2Fmrblogger&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-  [![License](https://img.shields.io/github/license/mistrysiddh/mrblogger?style=for-the-badge&color=blue)](LICENSE)
-  [![Repo Size](https://img.shields.io/github/repo-size/mistrysiddh/mrblogger?style=for-the-badge&color=orange)](https://github.com/mistrysiddh/mrblogger)
+  ![Profile Views](https://komarev.com/ghpvc/?username=mistrysiddh&style=flat-square&color=blue)
+  [![License](https://img.shields.io/github/license/mistrysiddh/mrblogger?style=flat-square&color=blue)](LICENSE)
+  [![Repo Size](https://img.shields.io/github/repo-size/mistrysiddh/mrblogger?style=flat-square&color=orange)](https://github.com/mistrysiddh/mrblogger)
 
   ---
 
@@ -38,28 +39,14 @@ This blog serves as my open notebook, covering a wide range of topics:
 
 ## 📊 GitHub Stats
 
-<div align="center">
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mistrysiddh&theme=radical" alt="Profile Details" />
+</p>
 
-  <!-- Github Stats -->
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=mistrysiddh&show_icons=true&theme=radical&count_private=true" alt="mistrysiddh's GitHub Stats" />
-  </a>
-  
-  <br/>
-
-  <!-- Top Languages -->
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mistrysiddh&layout=compact&theme=radical" alt="Top Languages" />
-  </a>
-
-  <br/>
-
-  <!-- Streak Stats -->
-  <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=mistrysiddh&theme=radical" alt="GitHub Streak" />
-  </a>
-
-</div>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mistrysiddh&theme=radical" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mistrysiddh&theme=radical" alt="Productive Time" />
+</p>
 
 ## 🛠️ Built With
 
