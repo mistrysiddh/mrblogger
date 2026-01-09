@@ -1,0 +1,191 @@
+#! ---------------------------------------------------------------
+#! Aurora Theme for Hexo
+#! ---------------------------------------------------------------
+#! Designed & Coded By TriDiamond
+#! ---------------------------------------------------------------
+
+#! ---------------------------------------------------------------
+#! Site Configs
+#！ @docs https://aurora.tridiamond.tech/guide/configuration.html
+#! ---------------------------------------------------------------
+site:
+  subtitle: Mistry Siddh
+  author: Mistry Siddh
+  nick: Mistry Siddh
+  description: MAYBE I WAS BORN LOSER, BUT I WILL DIE A FUCKING LEGEND.
+  link: 'https://www.mistrysiddh.com'
+  language: en
+  multi_language: false
+  logo: /images/whoami/avatar.png
+  avatar: /images/whoami/avatar.png
+  siddh:
+    number: ''
+    link: 'https://www.mistrysiddh.com'
+
+#! ---------------------------------------------------------------
+#! Authors Configs
+#！ @docs https://aurora.tridiamond.tech/guide/authors.html
+#! ---------------------------------------------------------------
+authors:
+  ##! example
+  siddh:
+    name: Mistry Siddh
+    avatar: /images/whoami/avatar.png
+    link: https://github.com/mrfoxie
+    description: 'Believe in the Person who Believes in you.'
+    socials:
+      github: https://github.com/mrfoxie/
+
+#! ---------------------------------------------------------------
+#! Menu Configs
+#！ @docs https://aurora.tridiamond.tech/guide/menu.html
+#! ---------------------------------------------------------------
+menu:
+  About: true
+  Tags: true
+  Archives: true
+  #live-cyber-attacks:
+  #  name: 'Cyber Attacks'
+  #  i18n:
+  #    en: Cyber Attacks
+  #  path: '/page/live-cyber-attacks'
+  anonsearch:
+    name: 'Anon Search'
+    i18n:
+      en: Anon Search
+    path: 'https://search.mistrysiddh.in/'
+  vault:
+    name: 'Cyber News'
+    i18n:
+      en: Cyber News
+    path: 'https://mistrysiddh.in/cyber-news'
+#! ---------------------------------------------------------------
+#! Theme Config
+#! @docs https://aurora.tridiamond.tech/guide/theme.html
+#! ---------------------------------------------------------------
+theme:
+  dark_mode: true
+  profile_shape: diamond # support `circle`, `diamond`, `rounded`
+  feature: true
+  gradient:
+    color_1: '#F7374F'
+    color_2: '#88304E'
+    color_3: '#522546'
+    color_4: '#2C2C2C'
+
+#! ---------------------------------------------------------------
+#! Social Configs
+#! @docs https://aurora.tridiamond.tech/guide/social.html
+#! ---------------------------------------------------------------
+socials:
+  customs:
+  ##! Example:
+  ##! --- Using SVG
+  # bilibili:
+  #   icon: http://localhost:4000/svg/bilibili.svg
+  #   link: https://live.bilibili.com/22619211
+
+  ##! --- Using IconFont
+  # baidu:
+  #   icon: iconfont icon-baidu
+  #   link: https://live.bilibili.com/22619211
+
+  ##! --- Using FontAwesome
+  # book:
+  #   icon: far fa-address-book
+  #   link: https://live.bilibili.com/22619211
+
+#! ---------------------------------------------------------------
+#! Site Meta Configs
+#! @docs https://aurora.tridiamond.tech/guide/theme.html
+#! ---------------------------------------------------------------
+site_meta:
+  cdn: en
+  favicon: /images/whoami/avatar.png
+  description: 'Get Weakly News Related To Different Kinds Of News, Tips, Tricks, Etc. If You Have Your Own Theory Or Story Then Comment Down In The Post.'
+  keywords: 'matrix, simulation, reality, government, truth, experiment, mind control, Conspiracy theory'
+  author: 'Mistry Siddh'
+
+#! ---------------------------------------------------------------
+#! Plugins
+#! @docs https://aurora.tridiamond.tech/guide/plugins.html
+#! ---------------------------------------------------------------
+
+# For local development only!
+gitalk:
+  enable: false
+  autoExpand: true
+  clientID: 'b2f95a99322423c264fc'
+  clientSecret: 'fd88d62d1bc75cb91014e9b4d29b9db842818b6c'
+  repo: 'mrblogger'
+  owner: 'mrfoxie'
+  admin: ['mrfoxie']
+  id: uid
+  language: en
+  distractionFreeMode: true
+  recentComment: false
+  proxy: ''
+
+# Valine comment plugin (recommended!)
+# see https://valine.js.org/quickstart.html
+valine:
+  enable: false
+  app_id:
+  app_key:
+  avatar: ''
+  placeholder: Leave your thoughts behind~
+  visitor: true
+  lang: en
+  avatarForce: false
+  meta: ['nick', 'mail']
+  requiredFields: []
+  admin: 'TriDiamond'
+  recentComment: true
+
+# Enable Busuanzi statistic plugin
+# see http://ibruce.info/2015/04/04/busuanzi/
+busuanzi:
+  enable: false
+
+copy_protection:
+  enable: true
+  author:
+    en: Mistry Siddh
+  link:
+    en: Article is from
+  license:
+    en: This content is shared under the CC BY-NC-SA 4.0 protocol (Non-Commercial)
+
+#! ---------------------------------------------------------------
+#! Enable Aurora Bot Dia
+#! @docs https://aurora.tridiamond.tech/guide/site-meta.html#custom-meta
+#! ---------------------------------------------------------------
+aurora_bot:
+  enable: true
+  locale: en
+  bot_type: dia
+  tips:
+    messages:
+        -  Hi, I am <span>Dia ^_^</span>, I am here to help you?
+        -  How are you doing? ^_^
+        -  Believe in the person who believes in you ^_^
+        -  Hope your doing good. ^_^
+    visibility_change: "Welcome to my Blog. ^_^"
+    mouseover:
+      - selector: '#Aurora-Dia'
+        text:
+          - Aaaaaaaaa... What are you <span>doing</span>? ^_^
+          - Please be gentle, I am very delicate! ^_^
+          - '<span>Sir yes sir!</span> What can I help you with? ^_^'
+          - Share this site as much as possible. ^_^
+
+
+#! ---------------------------------------------------------------
+#! Injections
+#! @docs https://aurora.tridiamond.tech/guide/site-meta.html#custom-meta
+#! ---------------------------------------------------------------
+injects:
+  scripts:
+    - <!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-3G7068L6TK"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-3G7068L6TK');</script>
+    - <!--Start of Tawk.to Script--><script type="text/javascript">var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();(function(){var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];s1.async=true;s1.src='https://embed.tawk.to/68caa9ecb285fd192a48f2c7/1j5bqfhmm';s1.charset='UTF-8';s1.setAttribute('crossorigin','*');s0.parentNode.insertBefore(s1,s0);})();</script><!--End of Tawk.to Script-->
+  css:

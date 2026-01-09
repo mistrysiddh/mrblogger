@@ -1,0 +1,121 @@
+---
+title: Create own virtual machine
+date: 2024-07-09 09:16:33
+tags:
+- Kasm Workspace
+- Virtual Machine
+- Technology
+- Linux
+series:
+- Technology
+categories:
+- Virtual Machine
+- Kasm Workspace
+cover: /images/posts/hyper-v.png
+feature: true
+---
+![Hyper-V](/images/posts/hyper-v.png)
+
+>First of all sorry for late uploading so if you want to skip this all Bla Bla Bla and start the main fun [Click Here](/post/Create-Own-Secure-Machine#Preparations).
+
+# **Sorry Note**
+
+> Dear Readers,
+> I hope this message finds you well. I want to extend my sincere apologies for the delay in posting on the blog. I understand how important it is to stay consistent, and I regret any inconvenience this may have caused.
+> Life has a way of throwing unexpected challenges our way, and recently, I've encountered a few that have taken more time and energy to navigate than anticipated. However, I’m back on track and committed to providing you with the quality content you’ve come to expect.
+> Thank you for your patience and understanding. Your support means the world to me, and I’m excited to share new insights, stories, and updates with you soon.
+> Stay tuned for upcoming posts!
+Best regards,
+> Siddh Mistry
+
+
+# Hyper-V
+Hyper-V is a powerful virtualization technology developed by Microsoft, enabling users to create and manage virtual machines (VMs) efficiently. As a key component of Windows Server and Windows 10 Pro/Enterprise, Hyper-V helps businesses and developers optimize hardware utilization, improve scalability, and streamline IT operations.
+
+## Key Features of Hyper-V:
+- Virtual Machine Creation and Management: Hyper-V allows users to create multiple VMs on a single physical server. Each VM can run its own operating system and applications independently.
+
+- Resource Allocation: Hyper-V provides granular control over resource allocation, including CPU, memory, storage, and network resources. This ensures optimal performance and efficient utilization of physical hardware.
+
+- Live Migration: With live migration, VMs can be moved between physical hosts without downtime. This feature is crucial for maintaining high availability and performing hardware maintenance.
+
+- Virtual Networking: Hyper-V offers advanced networking capabilities, including virtual switches, VLAN support, and network isolation, enabling secure and flexible network configurations.
+
+- Storage Options: Hyper-V supports various storage options, including virtual hard disks (VHD/VHDX), pass-through disks, and shared storage solutions like Storage Spaces Direct.
+
+- Integration Services: Integration Services enhance VM performance and usability by providing features like time synchronization, data exchange, and enhanced drivers for better performance.
+
+## Benefits of Using Hyper-V:
+- Cost Efficiency: By consolidating workloads onto fewer physical servers, organizations can reduce hardware and energy costs.
+
+- Scalability: Hyper-V allows easy scaling of IT infrastructure to meet growing demands without significant hardware investments.
+
+- Flexibility: Users can run different operating systems and applications on the same hardware, providing greater flexibility in software testing and development.
+
+- Disaster Recovery: Built-in features like Hyper-V Replica enable efficient disaster recovery and business continuity by replicating VMs to a secondary site.
+
+
+# Kasm Workspace
+Kasm Workspaces is a robust platform designed to deliver secure, browser-based remote environments. These environments can include desktops, applications, and websites, accessible from any device with an internet connection. Kasm Workspaces is a web-based solution for delivering secure, containerized workspaces that enable users to access virtual desktops, applications, and websites directly through their web browser. This platform leverages container technology to ensure security, performance, and scalability.
+
+## Features
+- Browser-Based Access: Users can access their workspaces from any device with a web browser, eliminating the need for specialized client software.
+
+- Containerized Environments: Each workspace runs in an isolated container, providing enhanced security and resource efficiency.
+
+- Scalability: Kasm Workspaces can scale easily to accommodate a growing number of users and workloads, making it suitable for organizations of all sizes.
+
+- Security: The platform offers strong security features, including data encryption, secure connections, and isolated environments to protect against malware and other threats.
+
+- Customization: Administrators can customize workspaces to meet specific needs, including configuring applications, settings, and resources.
+
+- Ease of Management: Kasm provides a centralized management console for easy deployment, monitoring, and maintenance of workspaces.
+
+# Preparations
+Following things will be needed:
+1. `Any Windows(10/11) laptop/desktop with minimum of 1TB space`
+2. Virtualization enabled from BIOS `(setting may differ from laptop to laptop kindly search on youtube for turning it on)`
+3. Enabling Hyper-V from control panel
+
+## Turning on Hyper-V
+> Open Control Panel then set `View by: Large icons`
+   ![Control Panel](/images/posts/control-panel.png)
+
+> Find our for `Programs and Features`
+   ![Programs and Features](/images/posts/Programs-and-Features.png)
+   
+> Select `Turn on Windows features on or off` to turn on hyper-v
+    ![Turn on Windows features on or off](/images/posts/Turn-on-Windows-features.png)
+
+> Now please pay attention and turn on the following options `(check all the options bellow and turn them on)`
+>   1. `Hyper-V`
+>   2. `Virtual Machine Platform` and
+>   3. `Windows Hypervisor Platform` after that click ok, wait for few seconds until you see `Reboot Now` and reboot you system completely.
+> After a fresh reboot please kindly open up `Task Manager` and check for `Virtualization` whether it is enabled or not as in the picture bellow
+    ![Virtualization](/images/posts/Virtualization.png)
+
+> Now lets start the main fun
+
+> First download `WinRAR` and install it from this link >> [Download](/files/server/winrar.exe)
+
+> Download Hyper-V disk image from this link >> [Download](/files/server/Server.vhdx.xz)
+
+> Before we do something I forgot to tell you to check whether Hyper-V is working or not 😅😅.
+
+>  Lets open it up and have a look at it 😁.
+    ![Hyper-V](/images/posts/hyper-v.png)
+
+> It worked fine so now we will start creating new machine so carefully look at the bellow images and play along.
+    ![Hyper-V](/images/posts/Hyper-V-step-1.png)
+
+> Its time to create a Virtual Machine with all the sources and setting (zoom in the images if you need to.)
+    ![Hyper-V](/images/posts/Hyper-V-step-2.png)
+    ![Hyper-V](/images/posts/Hyper-V-step-3.png)
+    ![Hyper-V](/images/posts/Hyper-V-step-4.png)
+    ![Hyper-V](/images/posts/Hyper-V-step-5.png)
+    ![Hyper-V](/images/posts/Hyper-V-step-6.png)
+    ![Hyper-V](/images/posts/Hyper-V-step-7.png)
+    Now just click on finish and wait for few seconds to get it completed.
+
+> Now use `WinRAR` software to extract `Server.xz` in the folder where you made your VM
+    ![Hyper-V](/images/posts/Server-xz.png)

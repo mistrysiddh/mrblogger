@@ -1,0 +1,15 @@
+sudo mkdir -p /run/resolvconf
+echo "nameserver 8.8.8.8" | sudo tee /run/resolvconf/resolv.conf
+ls -l /etc/resolv.conf
+sudo ln -sf /run/resolvconf/resolv.conf /etc/resolv.conf
+ping -c 3 google.com
+echo ""
+echo ""
+echo "Starting Docker Services"
+systemctl enable --now docker
+systemctl start docker
+echo ""
+echo ""
+echo "intenet restored clearing in 5s."
+sleep 5s
+clear
